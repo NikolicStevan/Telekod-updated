@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Homepage</title>
+  </head>
+  <body>
+    <div class="container table-responsive">
+      <table
+        class="table table-hover table-sm table-striped table-bordered w-75 mx-auto"
+        id="payments"
+        style="display: none"
+      >
+        <thead>
+          <tr>
+            <td colspan="5"></td>
+            <td><input type="text" placeholder="Search" id="search" /></td>
+          </tr>
+          <tr class="bg-primary">
+            <th>ID</th>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Address</th>
+            <th class="text-right" id="date-of-birth">
+              Date of birth <i class="arrowBirth"></i>
+            </th>
+            <th class="text-right" id="payment">
+              Payment <i class="arrowPayment"></i>
+            </th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot></tfoot>
+      </table>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/homepage.js"></script>
+  </body>
+</html>

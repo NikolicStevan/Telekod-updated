@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <title>LogIn</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <h1>Log In</h1>
+          <form>
+            <div class="form-group">
+              <label>Email*:</label>
+              <input type="text" class="form-control" id="email" required />
+              <div class="invalid-feedback">
+                Enter a valid email.
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Password*:</label>
+              <input type="password" class="form-control" id="pass" required />
+              <input type="checkbox" id="showPass" /> Show Password
+              <div class="invalid-feedback">
+                Password must be between 8 and 32 characters, at least one
+                letter, one number and one special char.
+              </div>
+            </div>
+            <div class="form-group">
+              <label>PIN*:</label>
+              <input type="password" class="form-control" id="pin" required />
+              <input type="checkbox" id="showPin" /> Show PIN
+              <div class="invalid-feedback">
+                PIN must be numbers, between 4 and 8 characters.
+              </div>
+            </div>
+            <input
+              type="button"
+              value="Log In"
+              id="loginBtn"
+              class="btn btn-primary btn-block"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/login.js"></script>
+  </body>
+</html>

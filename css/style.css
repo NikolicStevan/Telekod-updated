@@ -1,0 +1,23 @@
+.red{
+    color: red;
+}
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    display: inline-block;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+
+#date-of-birth:hover,
+#payment:hover {
+    cursor: pointer;
+}
